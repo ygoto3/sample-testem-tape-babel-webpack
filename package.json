@@ -1,0 +1,22 @@
+{
+  "name": "sample-testem-tape-webpack",
+  "version": "0.0.1",
+  "description": "A development environment sample for Testem, Tape, Babel, and WebPack",
+  "main": "src/index.spec.js",
+  "private": true,
+  "scripts": {
+    "init": "npm install",
+    "test": "$(npm bin)/testem ci -p 7358"
+  },
+  "author": "Yusuke Goto",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "blue-tape": "^0.1.10",
+    "phantomjs": "^1.9.18",
+    "phantomjs-polyfill": "0.0.1",
+    "sinon": "git+https://github.com/sinonjs/sinon.git",
+    "testem": "^0.9.11",
+    "webpack": "^1.12.2"
+  }
+}
